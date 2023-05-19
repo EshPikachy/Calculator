@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+}
+.wrap {
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: start;
+}
+
+input {
+  width: 300px;
+  background-color: greenyellow;
+  padding: 5px;
+}
+button {
+  width: 100px;
+  padding: 10px;
+  background-color: rebeccapurple;
+}
